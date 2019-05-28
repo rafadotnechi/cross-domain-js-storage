@@ -104,7 +104,6 @@ function crossDomainStorage(opts){
                 },
                 data = {
                     request: request,
-                    callback: callback
                 };
             if (window.jQuery) {
                 data.deferred = jQuery.Deferred();
