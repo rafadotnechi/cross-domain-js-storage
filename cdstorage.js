@@ -99,6 +99,7 @@ function crossDomainStorage(opts){
    cdstorage.keySet = function(){
         if (supported) {
             var request = {
+					id: ++_id,
                     type: 'keySet',
                     storage: storage
                 },
